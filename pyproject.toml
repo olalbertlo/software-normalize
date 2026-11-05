@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report=term-missing"
+
+[tool.coverage.run]
+core = "pytrace"
+include = ["hw*/*.py"]
+omit = ["*/test_*.py", ".venv/*"]
+
+[tool.coverage.report]
+fail_under = 100
+skip_empty = true

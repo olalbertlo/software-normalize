@@ -1,0 +1,7 @@
+.venv/
+.venv-hw3/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
